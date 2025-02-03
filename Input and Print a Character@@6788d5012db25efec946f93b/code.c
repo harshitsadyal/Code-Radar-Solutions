@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    char alphabet;
-    scanf("%c",&alphabet);
-    printf("the character is")
+    char Alpha;
+    scanf("%c",&Alpha);
+    printf("the character is: %c",Alpha);
+
     return 0;
 }
