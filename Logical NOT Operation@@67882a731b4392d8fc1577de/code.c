@@ -3,7 +3,7 @@
 int main(){
     int nunmber;
     scanf("%d", &nunmber);
-    if(nunmber < 0){
+    if(nunmber <= 0){
         printf("True");
     }
     else{
