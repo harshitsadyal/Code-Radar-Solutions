@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()[
+int main(){
     int number;
     scanf("%d", &number);
     if(number % 5 == 0 && number % 11 == 0){
@@ -11,4 +11,4 @@ int main()[
     }
 
     return 0;
-]
+}
