@@ -10,6 +10,6 @@ int main(){
         printf("%d",numb2);
     }
 
-    retrun 0;
+    return 0;
 
 }
