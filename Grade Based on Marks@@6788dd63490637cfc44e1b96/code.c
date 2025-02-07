@@ -18,7 +18,7 @@ int main(){
         printf('D');
     }
     else if(marks < 60){
-        printf('f')
+        printf('f');
     }
 
 
