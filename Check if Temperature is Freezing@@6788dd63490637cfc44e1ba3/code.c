@@ -2,7 +2,6 @@
 
 int main(){
     int temperature;
-    printf("Enter temperature in celsius: ");
     scanf("%d", &temperature);
 
     if(temperature <= 0){
