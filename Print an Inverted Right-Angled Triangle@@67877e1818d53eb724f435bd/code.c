@@ -3,12 +3,12 @@
 int main() {
     int n;
     printf("Enter the no of loops");
-    scanf("%d",&n)
+    scanf("%d",&n);
     for(int i = n ; i >= 1 ; i--){
         for(int j = 1; j <= i ; j++){
             printf("*");
         }
-        printf("\n")
+        printf("\n");
     }
 
     return 0;
