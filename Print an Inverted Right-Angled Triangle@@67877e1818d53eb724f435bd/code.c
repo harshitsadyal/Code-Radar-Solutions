@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int n;
     printf("Enter the no of loops");
     scanf("%d",&n)
