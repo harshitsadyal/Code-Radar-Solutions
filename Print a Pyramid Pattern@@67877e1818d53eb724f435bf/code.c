@@ -1,15 +1,16 @@
-// Your code here..
-#include<stdio.h>
+#include <stdio.h>  // Include standard input-output library
 
-int main(){
-    int n;
-    scanf("d",&n);
-    for(int i = 1 ; i <= n ; i++){
-        for(int j = 1 ; j <=  i; i++){
-            printf("* ");
+int main() {
+    int n; 
+
+    scanf("%d", &n); 
+    for(int i = 1; i <= n; i++) {
+        for(int j = 1; j <= i; j++) {
+            printf("*");  
         }
-        scanf("\n");
+
+        printf("\n"); 
     }
 
-    return 0;
+    return 0;  
 }
