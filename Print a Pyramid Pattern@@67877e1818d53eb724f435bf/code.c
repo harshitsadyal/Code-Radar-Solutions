@@ -1,4 +1,4 @@
-#include <stdio.h>  // Include standard input-output library
+#include <stdio.h>
 
 int main() {
     int n; 
@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n); 
     for(int i = 1; i <= n; i++) {
         for(int j = 1; j <= i; j++) {
-            printf("*");  
+            printf("* ");  
         }
 
         printf("\n"); 
